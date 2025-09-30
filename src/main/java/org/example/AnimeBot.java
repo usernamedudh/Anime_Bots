@@ -24,7 +24,7 @@ import java.nio.charset.StandardCharsets;
 import java.util.*;
 
 /**
- * Упрощённый AnimeBot:
+ * Упрощённый AnimeBot
  * - /start, /help, /search <название>
  * - Кнопки используют короткое callback_data: "anime:{malId}" и "episode:{malId}:{epNum}"
  * - Название аниме подтягивается из API при обработке callback (чтобы не хранить длинные строки в callback_data)
